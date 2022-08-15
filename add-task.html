@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add-task</title>
+    <link rel="stylesheet" href="add-task.css">    
+</head>
+<body>
+    <div class="container">
+        <form action="" method="get" class="form-example">
+        <header >
+            <a class="image-back left" href="home.html"><image src="arrow-left.png" class="arrow-left"></image></a>
+        <div class="add-task">
+            <input type="taxt" id="" class="new-task left" placeholder="Add Task">
+        </div>
+        <br>
+       </header>
+    <main>
+    
+        <div class="day">        
+            <div class="">
+            <p>Choose date</p>
+                <input type="date" id="start" name="trip-start" value="" class="date">
+        </div><br>
+
+        <div class="">
+            <p for="time">Choose Time</p>
+                <input type="time" id="time" name="trip-start" class="date-time" value="">
+        </div>
+        <br>
+        <div class="type">
+            <h4>Choose Task type </h4><br>
+            <div class="task-type ">
+                <bottun  type="radio" class="li li1">Work</bottun>
+                <bottun type="radio" class="li li2 " >Personal</bottun>
+                <bottun  type="radio" class="li li3 ">Shopping</bottun>
+                <bottun  type="radio" class="li li4 ">Helth</bottun>
+                <bottun  type="radio" class="li li5 ">Other</bottun>
+            </div>
+            <br>
+            <div>
+                <h4>Write description</h4><br>
+              <textarea id="description" class="description"  placeholder="Description"></textarea>
+            </div>
+            <input type="submit" id="" class="submit" value="add task">
+        </form>  
+        </div>
+    </main>
+    <footer>
+    </footer>
+    </div>
+
+    <script src="add-task.js"></script>
+
+</body>
+</html>

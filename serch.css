@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container{
+    width: 600px;
+    background-color:white;
+}
+
+
+body{
+    font-family:sans-serif;
+    background-color:rgb(230, 225, 218);
+}
+header{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+    
+
+}
+
+.image-header2{
+    width: 28px;
+    height: 28px;
+}
+
+.image-header1{
+    width: 20px;
+    height: 20px;
+}
+
+ol{
+    margin-left:20px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+input{
+    border:0;
+    /* border-radius: 0; */
+    font-size: 25px;
+    font-family: sans-serif;
+}
+    
+button{
+    border: 0;
+    background-color: white;
+}
+
+
+li::after{
+    content: "";
+    background-color:gray;
+    width: 300px;
+    height: 2px; 
+}
+
+.item{
+    display:flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+h4{
+    margin-left:50px;
+}
+
+
+
+.d1::after{ content: "";
+    border-radius: 50%;
+    border: 3px solid #fd426e;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.d2::after{ content: "";
+    border-radius: 50%;
+    border: 3px solid #5bfd42;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.d3::after{ content: "";
+    border-radius: 50%;
+    border: 3px solid #e1fd42a8;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.d4::after{ content: "";
+    border-radius: 50%;
+    border: 3px solid #fd6742;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+.d5::after{ content: "";
+    border-radius: 50%;
+    border: 3px solid #42b5fd;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}.d6::after{ content: "";
+    border-radius: 50%;
+    border: 3px solid #4542fd;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}.d7::after{ content: "";
+    border-radius: 50%;
+    border: 3px solid #a942fd;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+.d8::after{ content: "";
+    border-radius: 50%;
+    border: 3px solid #64051b;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}.d9::after{ content: "";
+    border-radius: 50%;
+    border: 3px solid #127572;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}.d10::after{ content: "";
+    border-radius: 50%;
+    border: 3px solid #fd9f42;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}

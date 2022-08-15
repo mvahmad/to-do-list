@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+   background-color: rgb(230, 225, 218);
+}
+
+.container{
+    background-color:white;
+    padding:15px;
+    width: 600px;
+}
+
+.arrow-left{
+    width: 20px;
+    height: 20px;
+  
+}
+
+.left{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+
+.image-back{
+
+    border:0;
+    background-color:white;
+    border-radius:0
+}
+
+.new-task{
+    border:0;
+    border-radius:0;
+    font-size: 20px;
+    margin-left: 70px;
+  
+}
+
+.date{
+    border:0;
+    border-radius:0;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.date-time{
+    border:0;
+    border-radius:0;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.day{
+    display:grid;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+
+.task-type{
+    display:grid;
+    font-family: sans-serif;
+    gap: 9px;
+    justify-content: center;
+    
+}
+
+.li1{
+    grid-column: 1 / 2;
+    grid-row: 1;
+    background-color: aqua;
+    color: white;
+    border-radius:10px;
+ 
+    
+}
+
+.li2{
+    grid-column: 2 / 3;
+    grid-row: 1;
+    background-color:red;
+    color:white
+
+}
+.li3{
+    grid-column: 3 / 4;
+    grid-row: 1;
+    background-color:greenyellow;
+    color: white
+}
+
+.li4{
+    grid-column: 1 / 2;
+    grid-row: 2;
+    color:white;
+    background-color:orangered
+
+}
+
+.li5{
+    grid-column: 2 / 3;
+    grid-row: 2;
+    color: white;
+    background-color:pink;
+}
+
+
+h4{
+    text-align: start;
+    font-family: sans-serif;
+}
+
+.li{
+    font-size: 25px;
+    text-align: center;
+    border-radius:2px;
+    border-radius: 8px;
+    border: 0; 
+    width: 125px;
+    height: 50px;
+}
+
+.description{
+        text-align: center;
+    }
+    
+#description{
+        width: 300px;
+        height: 150px;
+        border: 0;  
+        font-family: sans-serif;
+        font-size :30px;
+}
+
+
+
+.add-task{
+    margin-left:60px;
+}
+
+footer{
+    margin-left:125px;
+    
+}
+
+.submit{
+    width: 60px;
+    height: 40px;
+    background-color:gray;
+    color:white;
+    
+}
+
+
