@@ -27,7 +27,15 @@ body{
     justify-content: space-between;
 }
 
+.serch-task{
+    text-decoration: none;
+}
 
+
+
+ a:visited {
+    color: black;
+   } 
 
 .add-task{
     background-color:rgb(239, 102, 225);
@@ -41,6 +49,11 @@ body{
     
    
 }
+
+.add-task:visited{
+    color: white;
+} 
+
 p{
     font-size:12px;
     color:gray;
